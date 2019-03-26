@@ -17,12 +17,6 @@ function currentLine (katzDeliLine){
     for (var i=0; i<katzDeliLine.length; i++){
       katzDeliLineDetail.push(`${i+1}. ${katzDeliLine[i]}`);
     }return 'The line is currently: '+katzDeliLineDetail.join(', ');
-    /*var string = '';
-    var i = 0;
-    do {
-      string += `${i+1}. ${katzDeliLine[i]}, `;
-      i++;
-    }while (i<katzDeliLine.length);*/
   }else{
     return 'The line is currently empty.';
   }
